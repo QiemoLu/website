@@ -1,4 +1,5 @@
 # website
+<<<<<<< HEAD
 ## 分享一些自己常用的网站  
 |IT类	|数码类	|好玩类	|
 |:---------|:---------|:---------|
@@ -12,3 +13,9 @@
 |[v2ex](http://www.v2ex.com)|
 |[segmentfault程序问答社区](https://segmentfault.com)|
 |[月光博客](http://www.williamlong.info)|
+=======
+分享一些自己常逛的网站###
+| tff	  | fjdh	| ffh	  |
+| ----- | ----- | ----- |
+| 拟好  | 呵呵  | ii    |
+>>>>>>> 93c768c1dd8f96f153a3edb3e7864b0d580abb8f
