@@ -843,8 +843,6 @@ GO反射？
 不知道传入函数的参数类型，函数需要在运行时处理任意参数对象，这种需要对结构体对象反射。典型应用场景是ORM，gorm示例如下：
 
 ```
-```
-
 type struct {
 gorm.Model
 Name string
@@ -860,7 +858,6 @@ IgnoreMe int gorm:"-" // ignore this field
 User := struct{}
 db.Find(&users） 
 
-```
 ```
 
 Golang反射是通过接口来实现的，通过隐式转换，普通的类型被转换成interface类型，这个过程涉及到类型转换的过程，首先从Golang类型转为interface类型, 再从interface类型转换成反射类型, 再从反射类型得到想的类型和值的信息.
